@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/*font-family: 'Caveat', cursive;*/
+
+body {
+  background-image: url("../other/background.jpg");
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+
+div {
+  position: absolute;
+  left: 25vw;
+  border: 2px dashed rgb(182, 138, 19);
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #5a5a59 4%, #0e6069 51%, #620080 75%);
+  color: white;
+  opacity: 0.95;
+  height: 65vh;
+  width: 50vw;
+  overflow: scroll;
+}
+
+div::-webkit-scrollbar {
+  display: none
+}
+
+h1 {
+  font-size: 3.5vw;
+  color: rgb(255, 94, 0);
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+
+#hi {
+  opacity: 0;
+}
+
+p {
+  opacity: 0;
+  margin: 0 2vw;
+  font-size: 2.5vw;
+  color: rgb(212, 206, 206);
+  text-shadow: 2px 2px #2c2a2a;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+
+p span {
+  color: rgb(224, 224, 22);
+}
+
+#special {
+  color: #6fe757;
+}
+
+.hidden {
+  display: none;
+}
+
+#img_1 {
+  position: absolute;
+  top: 38vh;
+  left: 2.5vw;
+  width: 20vw;
+}
+
+#img_2 {
+  position: absolute;
+  top: 38vh;
+  left: 77vw;
+  width: 20vw;
+}
+
+#img_3 {
+  position: absolute;
+  top: 20vh;
+  left: 15vw;
+  width: 7vw;
+}
+#img_4 {
+  position: absolute;
+  top: 20vh;
+  left: 78vw;
+  width: 7vw;
+}
+
+#img_5 {
+  position: absolute;
+  top: 80vh;
+  left: 15vw;
+  width: 7vw;
+}
+
+#img_6 {
+  position: absolute;
+  top: 80vh;
+  left: 78vw;
+  width: 7vw;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.4155124653739612vh;
+  padding-right: 1vw;
+  padding-bottom: 1vw;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 2.21606648199446vh;
+}
