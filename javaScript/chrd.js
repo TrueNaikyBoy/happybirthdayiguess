@@ -30,9 +30,9 @@ $(document).ready(function(){
 
     setTimeout(function() {
         $("#img_1, #img_2, #img_3, #img_4, #img_5, #img_6, #hi, #chrd").fadeOut(2500);
-    }, 230000);
+    }, 90000);
 
     setTimeout(function() {
         window.location.replace("./again.html");
-    }, 233000);
+    }, 100000);
 });
