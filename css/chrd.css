@@ -46,7 +46,8 @@ p {
 }
 
 p span {
-  color: rgb(224, 224, 22);
+  color: rgb(255, 0, 0);
+  font-size: 4vw;
 }
 
 #special {
